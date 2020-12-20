@@ -1,0 +1,31 @@
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.gallery__item {
+  display: flex;
+  width: 500px;
+  margin-right: 30px;
+}
+.gallery__item:last-child {
+  margin-right: 0px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
