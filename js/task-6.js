@@ -19,7 +19,6 @@ inputRef.addEventListener('change', (event) => {
     inputRef.classList.add('valid');
   }
 });
-
 // Обратимся к форму через селектор
 // Повешаем на форму слушателя событий по изменению (change)
 
