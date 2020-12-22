@@ -2,7 +2,7 @@ const decreaseBtnRef = counter.firstElementChild;
 const increaseBtnRef = counter.lastElementChild;
 
 const valueRef = document.querySelector('#value');
-let counterValue = Number(value.textContent);
+let counterValue = Number(valueRef.textContent);
 
 decreaseBtnRef.addEventListener('click', () => {
   counterValue -= 1;
@@ -27,3 +27,4 @@ increaseBtnRef.addEventListener('click', () => {
 // Повесив слушателя на кнопку Плюс, укажем коллбэк функции следующее:
 // 1. Уменьшить значение counterValue на 1
 // 2. Записать в value.textContent значение counterValue
+// ================
